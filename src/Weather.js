@@ -32,7 +32,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "eac360db5fc86ft86450f3693e73o43f";
+    const apiKey = "fe2oe4at2732008d649aee0afa9012b3";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
@@ -75,15 +75,15 @@ export default function Weather(props) {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/"
+            href="https://github.com/Sne210303"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SheCodes
+            Snenhlanhla Mkhwanazi
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://github.com/Sne210303/weather-search-engine-react"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -91,7 +91,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodes-weather.netlify.app/"
+            href="https://app.netlify.com/sites/aquamarine-narwhal-e3eff6/overview"
             target="_blank"
             rel="noopener noreferrer"
           >
